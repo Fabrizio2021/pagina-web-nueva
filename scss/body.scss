@@ -1,0 +1,63 @@
+@mixin center {
+  text-align: center;
+  background-color: black;
+ }
+
+
+$colores: (
+  colorPrimario: #3673D9
+);
+body {
+    background-color: #4b4c4d; }
+
+ .texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    color: map-get($colores ,colorPrimario );
+ }
+  
+    .imgsecundarias {
+       display: flex;
+      align-items: center; }
+  
+
+   .noticiasDiv {
+ @include center ;
+  }
+  
+
+  
+  /* me centra el texto de videos recomendados */
+  .alinear {
+    text-align: center; }
+
+.boton{
+    border: none;
+     color: rgb(255, 0, 0);
+     padding: 16px 32px;
+    text-align: center;
+     text-decoration: black;
+     font-size: 16px;
+     margin: 4px 2px;
+   transition-duration: 0.4s;
+     cursor: pointer;
+  }
+.botonSaber{
+  @extend .boton;
+  background-color: rgb(27, 27, 36);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
