@@ -5,14 +5,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  color: #3673D9; }
+  text-align: center; }
 
 .imgsecundarias {
   display: flex;
   align-items: center; }
 
-/* es para alinear las imagenes */
 .noticiasDiv {
   text-align: center;
   background-color: black; }
@@ -21,7 +19,7 @@ body {
 .alinear {
   text-align: center; }
 
-.boton, .botonSaber {
+.boton {
   border: none;
   color: red;
   padding: 16px 32px;
@@ -32,11 +30,7 @@ body {
   transition-duration: 0.4s;
   cursor: pointer; }
 
-.botonSaber {
-  background-color: #1b1b24;
-  color: white; }
-
-/* Footer */
+/* Footer  */
 .footer-basic {
   padding: 40px 0;
   background-color: #969696;
@@ -87,5 +81,3 @@ body {
   font-size: 13px;
   color: #5f5f5f;
   margin-bottom: 0; }
-
-/* fin de footer */

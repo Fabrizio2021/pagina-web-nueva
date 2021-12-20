@@ -3,36 +3,36 @@
   background-color: black;
  }
 
-
-$colores: (
-  colorPrimario: #3673D9
-);
+// color de fondo sitio web
 body {
     background-color: #4b4c4d; }
+// 
 
+// para alinear los textos 
  .texto2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center; 
-    color: map-get($colores ,colorPrimario );
- }
   
+ }
+  // 
     .imgsecundarias {
        display: flex;
       align-items: center; }
   
-
+// me centra las noticias 
    .noticiasDiv {
  @include center ;
   }
-  
+  // 
 
   
   /* me centra el texto de videos recomendados */
   .alinear {
     text-align: center; }
-
+//
+// es un boton abajo del todo en el index
 .boton{
     border: none;
      color: rgb(255, 0, 0);
@@ -44,11 +44,7 @@ body {
    transition-duration: 0.4s;
      cursor: pointer;
   }
-.botonSaber{
-  @extend .boton;
-  background-color: rgb(27, 27, 36);
-  color: white;
-}
+// 
 
 
 
