@@ -1,8 +1,8 @@
-/* Footer  */
-.footer-basic {
-  padding: 40px 0;
-  background-color: #969696;
-  color: #4b4c4d; }
+  /* Footer index */
+  .footer-basic {
+    padding: 40px 0;
+    background-color: #969696;
+    color: #4b4c4d; }
   
   .footer-basic ul {
     padding: 0;
@@ -49,5 +49,217 @@
     font-size: 13px;
     color: #5f5f5f;
     margin-bottom: 0; }
-    // fin footer 
-  
+  /*  */
+
+
+ /* Footer xbox  */
+ .footer-basic-xbox {
+  padding: 40px 0;
+  background-color: #000000;
+  color: #2ca243; }
+
+.footer-basic-xbox ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-xbox li {
+  padding: 0 10px; }
+
+.footer-basic-xbox ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-xbox ul a:hover {
+  opacity: 1; }
+
+.footer-basic-xbox .social-xbox {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-xbox .social-xbox > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-xbox .social-xbox > a:hover {
+  opacity: 0.9; }
+
+.footer-basic-xbox .copyright-xbox {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+/*  */
+
+ /* Footer nintendo  */
+ .footer-basic-nintendo {
+  padding: 40px 0;
+  background-color:#000000 ;
+  color: #00c5ff; }
+
+.footer-basic-nintendo ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-nintendo li {
+  padding: 0 10px; }
+
+.footer-basic-nintendo ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-nintendo ul a:hover {
+  opacity: 1; }
+
+.footer-basic-nintendo .social-nintendo {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-nintendo .social-nintendo > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-nintendo .social-nintendo> a:hover {
+  opacity: 0.9; }
+
+.footer-basic-nintendo .copyright-nintendo {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+
+
+   /* Footer steam  */
+ .footer-basic-steam {
+  padding: 40px 0;
+  background-color:#1b2838 ;
+  color: #66c0f4; }
+
+.footer-basic-steam ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-steam li {
+  padding: 0 10px; }
+
+.footer-basic-steam ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-steam ul a:hover {
+  opacity: 1; }
+
+.footer-basic-steam .social-steam {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-steam .social-steam > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-steam .social-steam> a:hover {
+  opacity: 0.9; }
+
+.footer-basic-steam .copyright-steam {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+
+     /* Footer playstation  */
+ .footer-basic-play{
+  padding: 40px 0;
+  background-color:#ffffff ;
+  color: #2e6db4; }
+
+.footer-basic-play ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-play li {
+  padding: 0 10px; }
+
+.footer-basic-play ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-play ul a:hover {
+  opacity: 1; }
+
+.footer-basic-play .social-play {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-play .social-play > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-play .social-play> a:hover {
+  opacity: 0.9; }
+
+.footer-basic-play .copyright-play {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }

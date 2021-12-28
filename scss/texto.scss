@@ -1,0 +1,49 @@
+/* color y alineamiento de textos primero */
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    .texto-xbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    color:#2ca243 ; }
+
+    .texto-nintendo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    color:#00c5ff ; }
+
+  .imgsecundarias {
+    display: flex;
+    align-items: center; }
+/* alineacion y color noticias */
+  .noticiasDiv {
+    text-align: center;
+    background-color: black; }
+
+    .noticiasDiv-xbox {
+      color: #2ca243;
+      text-align: center;
+      background-color: black; }
+
+      .noticiasDiv-nintendo {
+        color: #ff2d2d;
+        text-align: center;
+        background-color: #00c5ff; }
+        
+        .noticiasDiv-steam {
+          color: #000000;
+          text-align: center;
+          background-color: #2a475e; }
+
+
+
+
+  .alinear {
+    text-align: center; }
+  /*  */ 

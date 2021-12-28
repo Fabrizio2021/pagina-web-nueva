@@ -1,36 +1,21 @@
-body {
+/* color de la pagina */
+.body-index {
   background-color: #4b4c4d; }
 
-.texto2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center; }
+.body-xbox {
+  background-color: #107c10; }
 
-.imgsecundarias {
-  display: flex;
-  align-items: center; }
+.body-nintendo {
+  background-color: #333333; }
 
-.noticiasDiv {
-  text-align: center;
-  background-color: black; }
+.body-steam {
+  background-color: #c7d5e0; }
 
-/* me centra el texto de videos recomendados */
-.alinear {
-  text-align: center; }
+.body-play {
+  background-color: #2e6db4; }
 
-.boton {
-  border: none;
-  color: red;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: black;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer; }
-
-/* Footer  */
+/*  */
+/* Footer index */
 .footer-basic {
   padding: 40px 0;
   background-color: #969696;
@@ -81,3 +66,395 @@ body {
   font-size: 13px;
   color: #5f5f5f;
   margin-bottom: 0; }
+
+/*  */
+/* Footer xbox  */
+.footer-basic-xbox {
+  padding: 40px 0;
+  background-color: #000000;
+  color: #2ca243; }
+
+.footer-basic-xbox ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-xbox li {
+  padding: 0 10px; }
+
+.footer-basic-xbox ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-xbox ul a:hover {
+  opacity: 1; }
+
+.footer-basic-xbox .social-xbox {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-xbox .social-xbox > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-xbox .social-xbox > a:hover {
+  opacity: 0.9; }
+
+.footer-basic-xbox .copyright-xbox {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+/*  */
+/* Footer nintendo  */
+.footer-basic-nintendo {
+  padding: 40px 0;
+  background-color: #000000;
+  color: #00c5ff; }
+
+.footer-basic-nintendo ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-nintendo li {
+  padding: 0 10px; }
+
+.footer-basic-nintendo ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-nintendo ul a:hover {
+  opacity: 1; }
+
+.footer-basic-nintendo .social-nintendo {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-nintendo .social-nintendo > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-nintendo .social-nintendo > a:hover {
+  opacity: 0.9; }
+
+.footer-basic-nintendo .copyright-nintendo {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+/* Footer steam  */
+.footer-basic-steam {
+  padding: 40px 0;
+  background-color: #1b2838;
+  color: #66c0f4; }
+
+.footer-basic-steam ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-steam li {
+  padding: 0 10px; }
+
+.footer-basic-steam ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-steam ul a:hover {
+  opacity: 1; }
+
+.footer-basic-steam .social-steam {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-steam .social-steam > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-steam .social-steam > a:hover {
+  opacity: 0.9; }
+
+.footer-basic-steam .copyright-steam {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+/* Footer playstation  */
+.footer-basic-play {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #2e6db4; }
+
+.footer-basic-play ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic-play li {
+  padding: 0 10px; }
+
+.footer-basic-play ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic-play ul a:hover {
+  opacity: 1; }
+
+.footer-basic-play .social-play {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic-play .social-play > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #949494;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic-play .social-play > a:hover {
+  opacity: 0.9; }
+
+.footer-basic-play .copyright-play {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #5f5f5f;
+  margin-bottom: 0; }
+
+/* pagina de soporte */
+* {
+  box-sizing: border-box; }
+
+.body-soporte {
+  background: #000000;
+  color: #fff;
+  line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 1.5em; }
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.logo {
+  text-align: center;
+  font-size: 3em; }
+
+.logo span {
+  color: #B70E21; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1em; }
+
+.contact-form {
+  background: #222222; }
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contact-form form label {
+  display: block; }
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contact-form form .block {
+  grid-column: 1 / 3; }
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #d63031; }
+
+.contact-form form button {
+  background: #B70E21;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #d63031;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+/* CONTACT INFO */
+.contact-info {
+  background: #000; }
+
+.contact-info h4, .contact-info ul, .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+/* LARGE SIZE */
+@media (min-width: 700px) {
+  .body-soporte {
+    padding: 0 4em; }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .contact-wrapper > * {
+    padding: 2em; }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left; } }
+
+.volver {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 45px;
+  list-style: none;
+  text-decoration: none;
+  color: red; }
+
+a {
+  color: inherit; }
+
+/* es un boton en la parte de abajo de todas las paginas */
+.boton {
+  border: none;
+  color: red;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: black;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+/*  */
+/* color y alineamiento de textos primero */
+.texto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+
+.texto-xbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #2ca243; }
+
+.texto-nintendo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #00c5ff; }
+
+.imgsecundarias {
+  display: flex;
+  align-items: center; }
+
+/* alineacion y color noticias */
+.noticiasDiv {
+  text-align: center;
+  background-color: black; }
+
+.noticiasDiv-xbox {
+  color: #2ca243;
+  text-align: center;
+  background-color: black; }
+
+.noticiasDiv-nintendo {
+  color: #ff2d2d;
+  text-align: center;
+  background-color: #00c5ff; }
+
+.noticiasDiv-steam {
+  color: #000000;
+  text-align: center;
+  background-color: #2a475e; }
+
+.alinear {
+  text-align: center; }
+
+/*  */
+/* color de todos los navbars */
+.bg-color-xbox {
+  background-color: #77bb44; }
+
+.bg-color-steam {
+  background-color: #2a475e; }
+
+.bg-color-nintendo {
+  background-color: #ff2d2d; }
+
+/*  */
